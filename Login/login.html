@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="login.css">
+  <title>Login Page</title>
+</head>
+<body>
+  <div class="login-container">
+    <div class="login-box">
+      <h1 class="login-title">Login</h1>
+      <form method="post" autocomplete="off" name="contactform" id="contactform" action="">
+        <div class="login-form">
+        <div class="username-group">
+          <label class="username-label" for="username">Username:</label>
+          <input class="username-input" type="text" id="username" name="username" required>
+        </div>
+        <div class="password-group">
+          <label class="password-label" for="password">Password:</label>
+          <input class="password-input" type="password" id="password" name="password" required>
+        </div>
+        </div>
+        <b>
+        <div class="links">
+          <a href="#">Forgot Password ?</a>
+          <a href="register.html">Register</a>
+        </div>
+        </b>
+        <div class="login-form">
+        <div>
+        <input class="submit-button" type="submit" value="Submit">
+        </div>
+        </div>
+      </form>
+    </div>
+  </div>
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwOU9G3N7XIjT5-SfBgKLMnn8CtjHSMNUsu2eRqFEWHcDEPdJXZEXVDJ7h9OFdZU57s/exechttps://script.google.com/macros/s/AKfycbwOU9G3N7XIjT5-SfBgKLMnn8CtjHSMNUsu2eRqFEWHcDEPdJXZEXVDJ7h9OFdZU57s/exechttps://script.google.com/macros/s/AKfycbwOU9G3N7XIjT5-SfBgKLMnn8CtjHSMNUsu2eRqFEWHcDEPdJXZEXVDJ7h9OFdZU57s/exechttps://script.google.com/macros/s/AKfycbwOU9G3N7XIjT5-SfBgKLMnn8CtjHSMNUsu2eRqFEWHcDEPdJXZEXVDJ7h9OFdZU57s/exec'
+    const form = document.forms['formName']
+    
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => alert("Thank you! your form is submitted successfully." ))
+      .then(() => {  window.location.reload(); })
+      .catch(error => console.error('Error!', error.message))
+    })
+    </script>
+</body>
+</html>

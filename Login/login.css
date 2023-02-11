@@ -1,0 +1,94 @@
+body {
+    background-color: #3CB371;
+  }
+  
+  .login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  a{
+    text-decoration: none;
+    color: #3CB371;
+ 
+  }
+  .login-box {
+    width: 400px;
+    height: 430px;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+  }
+  
+  .login-title {
+    text-align: center;
+    font-size: 40px;
+    color: #3CB371;
+    margin-bottom: 50px;
+  }
+  
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .username-group,
+  .password-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .username-label,
+  .password-label {
+    font-size: 20px;
+    color: #3CB371;
+    margin-bottom: 10px;
+  }
+  
+  .username-input,
+  .password-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 2px solid #3CB371;
+  }
+  
+  .submit-button {
+
+    margin: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 10px;
+    font-size: 20px;
+    background-color: #3CB371;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .submit-button:hover {
+    background-color: #fff;
+    color: #3CB371;
+    box-shadow: 0 0 10px #3CB371;
+    border-color: #3CB371;
+    border:10px;
+  }
+  
+  .submit-button:active {
+    transform: translateY(3px);
+    box-shadow: none;
+  }
+  .links{
+    justify-content: space-between;
+    display: flex;
+    font-size: 20px;
+  }

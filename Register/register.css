@@ -1,0 +1,111 @@
+body {
+    background-color: #3CB371;
+  }
+
+a{
+    text-decoration: none;
+    color: #3CB371;
+  }
+  
+.register-container {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .register-box {
+    height: 550px;
+    width: 500px;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #999;
+  }
+  
+  .register-title {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color: #3CB371;
+    margin-bottom: 0px;
+  }
+  
+  .register-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+    padding: 30px;
+  }
+  
+  .username-group,
+  .email-group,
+  .password-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding-bottom: 30px;
+  }
+  
+  .username-label,
+  .email-label,
+  .password-label {
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    color: #3CB371;
+    margin-bottom: 10px;
+  }
+  
+  .username-input,
+  .email-input,
+  .password-input {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    border-bottom: 2px solid #3CB371;
+  }
+  
+  .submit-button {
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 10px;
+    font-size: 20px;
+    background-color: #3CB371;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .submit-button:hover {
+    background-color: #fff;
+    color: #3CB371;
+    box-shadow: 0 0 10px #3CB371;
+  }
+  
+  .submit-button:active {
+    transform: translateY(2px);
+  }
+
+  .links{
+    justify-content: space-between;
+    display:flex;
+    font-size: 20px;
+    color: #3CB371;
+
+  }
