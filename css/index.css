@@ -1,18 +1,62 @@
 body{
     background-color: #fff;
+    margin: 0;
+    padding: 0;
 }
 
-.navlinks{
+.navbar {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    background-color: #3CB371;
+    color: #fff;
+    padding: 0 20px;
+  }
+
+.navbar button {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 15px;
+    font-size: 18px;
+    cursor:pointer;
+    border: none;
+    border-radius: 5px;
+  }
+  .links button{
+    padding: 15px 40px;
+    background-color: #3CB371;
+  }
+
+  .links button:hover {
+    background-color: #36a065;
+  }
+
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  margin-right: auto;
 }
 
-.navlinks button{
-    padding: 15px 25px;
-    background-color: #fff;
-    margin: 5px 10px;
+.lg button{
+    padding: 5px 24px;
+    background-color: black;
+
 }
 
-.navlinks button:hover{
-    opacity: 10%;
+.section1{
+    margin: 30px 30px;
+}
+
+.section1 img{
+    width: 200px;
+    height: 300px
+    flex:1
+}
+
+.line{
+    background-color: black;
+    padding: 1px;
+    margin: 0px 10px;
 }
