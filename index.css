@@ -1,3 +1,18 @@
 body{
     background-color: #fff;
 }
+
+.navlinks{
+    display: flex;
+    justify-content: center;
+}
+
+.navlinks button{
+    padding: 15px 25px;
+    background-color: #fff;
+    margin: 5px 10px;
+}
+
+.navlinks button:hover{
+    opacity: 10%;
+}
