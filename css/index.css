@@ -1,7 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+
+
 body{
-    background-color: #fff;
     margin: 0;
     padding: 0;
+    background-image: url(https://cdn.pixabay.com/photo/2021/04/24/08/44/beach-6203544_960_720.jpg);
+    background-size: cover;
+    height: 100%;
+    width:100%;
 }
 
 .navbar {
@@ -9,7 +15,7 @@ body{
     justify-content: space-between;
     align-items: center;
     height: 80px;
-    background-color: #3CB371;
+    background-color:transparent;
     color: #fff;
     padding: 0 20px;
   }
@@ -24,12 +30,15 @@ body{
     border-radius: 5px;
   }
   .links button{
-    padding: 15px 40px;
-    background-color: #3CB371;
+    padding: 15px 20px;
+    background-color: transparent;
+    font-weight: 1100;
+    font-size: 20px;
   }
 
   .links button:hover {
-    background-color: #36a065;
+    background-color: transparent;
+    color : rgb(254,198,53);
   }
 
 
@@ -47,12 +56,22 @@ body{
 
 .section1{
     margin: 30px 30px;
+    display: flex;
 }
 
 .section1 img{
     width: 200px;
-    height: 300px
-    flex:1
+    height: 300px;
+    flex: 1;
+}
+
+.section1 p{
+    flex:4;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    
+
 }
 
 .line{
