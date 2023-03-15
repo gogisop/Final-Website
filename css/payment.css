@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap');
+
+.ty-holder{
+    justify-content: center;
+    display: flex;
+}
+
+
+.ty-box{
+    display: flex;
+    background-color: rgb(32,33,36);
+    justify-content: center;
+    height: 500px;
+    width: 400px;
+}
+
+.ty-box h1{
+    font-family: 'Tilt Warp', cursive;
+    color: white;
+    letter-spacing: 5px;
+    margin: 10px;
+    text-align: center;
+}

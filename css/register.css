@@ -1,10 +1,7 @@
-body {
-    background-color: #3CB371;
-  }
 
 a{
     text-decoration: none;
-    color: #3CB371;
+    color: rgb(32,33,36);
   }
   
 .register-container {
@@ -14,12 +11,11 @@ a{
   }
   
   .register-box {
-    height: 550px;
+    height: 500px;
     width: 500px;
     padding: 30px;
-    background-color: #fff;
+    background-color: rgb(32,33,36);
     border-radius: 10px;
-    box-shadow: 0 0 10px #999;
   }
   
   .register-title {
@@ -27,7 +23,7 @@ a{
     justify-content: center;
     align-items: center;
     font-size: 40px;
-    color: #3CB371;
+    color: white;
     margin-bottom: 0px;
   }
   
@@ -59,7 +55,7 @@ a{
     font-size: 20px;
     justify-content: center;
     align-items: center;
-    color: #3CB371;
+    color: white;
     margin-bottom: 10px;
   }
   
@@ -73,39 +69,35 @@ a{
     font-size: 16px;
     border: none;
     border-radius: 5px;
-    border-bottom: 2px solid #3CB371;
+    background-color: transparent;
+    border-bottom: 2px solid gray;
+    color: white;
+    outline: none;
   }
   
   .submit-button {
-    margin-top: 10px;
     justify-content: center;
-    align-items: center;
     margin-left: 50px;
     margin-right: 50px;
     padding: 10px;
     font-size: 20px;
-    background-color: #3CB371;
+    background-color: rgb(32,33,36);
     color: #fff;
-    border: none;
+    border: 1px solid white;
     border-radius: 5px;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
   }
   
   .submit-button:hover {
-    background-color: #fff;
-    color: #3CB371;
-    box-shadow: 0 0 10px #3CB371;
+    box-shadow: 0 0 10px gray;
   }
   
-  .submit-button:active {
-    transform: translateY(2px);
-  }
 
   .links{
     justify-content: space-between;
     display:flex;
     font-size: 20px;
-    color: #3CB371;
+    color: white;
 
   }

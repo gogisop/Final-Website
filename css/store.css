@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.paypal-button-container{
+    display: flex;
+    float: right;
+    width: 200px;
+}
+
+.box{
+    margin: 15px 50px;
+    display: flex;
+    flex-direction: column;
+    padding: 55px;
+    width: 250px;
+    height: 430px;
+    background-color: rgb(32,33,36);
+    align-items: center;
+}
+.box h1{
+    color: aliceblue;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 1100;
+}
+.box img{
+    margin: 50px;
+    height: 220px;
+    width: 250px;
+}
+
+
+.mba{
+    display: flex;
+    flex-direction: row;
+    width: 1300px;
+    height: 300;
+    justify-content: space-between;
+}
+.ppal{
+    width: 400px;
+    margin: 20px 20px;
+}
+
+.ppal input{
+    margin: 40px;
+    width: 400px;
+}
