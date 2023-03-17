@@ -1,17 +1,17 @@
-body {
-    background-color: #3CB371;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-  }
-  
+
+.og{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
   .container {
     padding: 50px;
     border-radius: 10px;
     text-align: center;
     box-shadow: 0 0 10px #333333;
-    background-color: #f1f1f1;
+    background-color: #fff;
+    width: 350px;
   }
   
   .header {
@@ -30,16 +30,17 @@ body {
 
   .btn{
     cursor: pointer;
-    background-color: #4cb17a;
+    background-color: #333333;
     border: 5px;
     padding: 10px 20px;
     font-size: 40px;
     font-weight: bolder;
-    color: #333333;
+    color: #fff;
+    border-radius: 5px;
   }
 
   .btn:hover{
     background-color: #fff;
-    color: #3CB371;
-    box-shadow: 0 0 10px #3CB371;
+    color: #333333;
+    box-shadow: 0 0 20px #333333;
   }

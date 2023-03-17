@@ -5,14 +5,23 @@ html{
   background-color: rgb(48,49,52);
 }
 
+
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 80px;
-    background-color:transparent;
+    background-color: transparent;
+    width: 100%;
     color: #fff;
-    padding: 0 20px;
+    z-index: 99999;
+    position: fixed;
+    transition: transform 0.3s ease-in-out;
+  }
+
+  #navbar.fixed {
+    position: fixed;
+    top: 0;
   }
 
 .navbar button {
