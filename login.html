@@ -8,7 +8,7 @@
   <div class="login-container">
     <div class="login-box">
       <h1 class="login-title">Login</h1>
-      <form method="post" autocomplete="off" name="contactform" id="contactform" action="">
+      <form method="post" autocomplete="off" action="php/login.php">
         <div class="login-form">
         <div class="username-group">
           <label class="username-label" for="username"></label>
@@ -31,17 +31,5 @@
       </form>
     </div>
   </div>
-  <script>
-    const scriptURL = 'https://script.google.com/macros/s/AKfycbwOU9G3N7XIjT5-SfBgKLMnn8CtjHSMNUsu2eRqFEWHcDEPdJXZEXVDJ7h9OFdZU57s/exechttps://script.google.com/macros/s/AKfycbwOU9G3N7XIjT5-SfBgKLMnn8CtjHSMNUsu2eRqFEWHcDEPdJXZEXVDJ7h9OFdZU57s/exechttps://script.google.com/macros/s/AKfycbwOU9G3N7XIjT5-SfBgKLMnn8CtjHSMNUsu2eRqFEWHcDEPdJXZEXVDJ7h9OFdZU57s/exechttps://script.google.com/macros/s/AKfycbwOU9G3N7XIjT5-SfBgKLMnn8CtjHSMNUsu2eRqFEWHcDEPdJXZEXVDJ7h9OFdZU57s/exec'
-    const form = document.forms['formName']
-    
-    form.addEventListener('submit', e => {
-      e.preventDefault()
-      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-      .then(response => alert("Thank you! your form is submitted successfully." ))
-      .then(() => {  window.location.reload(); })
-      .catch(error => console.error('Error!', error.message))
-    })
-    </script>
 </body>
 </html>
